@@ -30,6 +30,13 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals(Recursion.count7(717), 2);
     }
+    @Test
+    public void Test3() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.changePi("xpix"), "x3.14x");
+    }
     
     // add more tests
     

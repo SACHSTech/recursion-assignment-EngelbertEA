@@ -13,4 +13,7 @@ public class Recursion{
     //Returns 0 since there is not a 7 and removes the last digit
     return 0 + count7(n / 10);
   }
+  public static String changePi(String str) {
+    
+  }
 }
