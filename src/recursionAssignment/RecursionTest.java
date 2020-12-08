@@ -9,7 +9,7 @@ import recursionAssignment.Recursion;
 public class RecursionTest{
     
     @Before
-    public void beforeTest(){
+    public void beforeTest() {
       // some steps to perform before tests are run
     }
     
@@ -17,17 +17,24 @@ public class RecursionTest{
      * An initial test
      */
     @Test
-    public void Test1(){
+    public void Test1() {
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
         assertEquals(Recursion.count7(7), 1);
     }
+    @Test
+    public void Test2() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(Recursion.count7(717), 2);
+    }
     
     // add more tests
     
     @After
-    public void afterTest(){
+    public void afterTest() {
       // some steps to perform after tests are run
     }
     
