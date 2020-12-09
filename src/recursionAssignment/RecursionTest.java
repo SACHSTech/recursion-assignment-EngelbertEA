@@ -59,8 +59,18 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals("yza", Recursion.stringClean("yyzzza"));
     }
-    
-    // add more tests
-    
-    
+    @Test
+    public void Test8() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("abcd", Recursion.stringClean("abbbcdd"));
+    }
+    @Test
+    public void Test9() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("Helo", Recursion.stringClean("Hello")); 
+    }  
 }
