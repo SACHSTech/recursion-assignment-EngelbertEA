@@ -7,12 +7,6 @@ import org.junit.After;
 import recursionAssignment.Recursion;
 
 public class RecursionTest{
-    
-    @Before
-    public void beforeTest() {
-      // some steps to perform before tests are run
-    }
-    
     /**
      * An initial test
      */
@@ -21,29 +15,45 @@ public class RecursionTest{
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(Recursion.count7(7), 1);
+        assertEquals(1, Recursion.count7(7));
     }
     @Test
     public void Test2() {
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(Recursion.count7(717), 2);
+        assertEquals(2, Recursion.count7(717));
     }
     @Test
     public void Test3() {
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(Recursion.changePi("xpix"), "x3.14x");
+        assertEquals(0, Recursion.count7(123));
+    }
+    @Test
+    public void Test4() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("x3.14x", Recursion.changePi("xpix"));
+    }
+    @Test
+    public void Test5() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("3.143.14", Recursion.changePi("pipi"));
+    }
+    @Test
+    public void Test6() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("3.14p", Recursion.changePi("pip"));
     }
     
     // add more tests
-    
-    @After
-    public void afterTest() {
-      // some steps to perform after tests are run
-    }
     
     
 }
