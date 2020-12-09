@@ -6,10 +6,13 @@ import org.junit.After;
 
 import recursionAssignment.Recursion;
 
+/**
+*Test file to run the Recursion Assignment code
+* @author: E. Aroozoo
+*/
+
 public class RecursionTest{
-    /**
-     * An initial test
-     */
+    //Test for Count7 Problems
     @Test
     public void Test1() {
         // make assertion statement(s)
@@ -31,6 +34,8 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals(0, Recursion.count7(123));
     }
+
+    //Test for ChangePi Problems
     @Test
     public void Test4() {
         // make assertion statement(s)
@@ -52,6 +57,8 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals("3.14p", Recursion.changePi("pip"));
     }
+
+    //Test for StringClean Problems
     @Test
     public void Test7() {
         // make assertion statement(s)
