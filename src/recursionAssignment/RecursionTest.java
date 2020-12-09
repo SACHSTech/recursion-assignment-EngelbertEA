@@ -52,6 +52,13 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals("3.14p", Recursion.changePi("pip"));
     }
+    @Test
+    public void Test7() {
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("yza", Recursion.stringClean("yyzzza"));
+    }
     
     // add more tests
     
